@@ -1,6 +1,6 @@
 package net.skhu;
 
-import androidx.appcompat.app.AppCompatActivity;
+import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle; import android.view.View;
 import android.widget.Button; import android.widget.CheckBox;
 import android.widget.CompoundButton;
@@ -23,7 +23,7 @@ public class CheckboxesActivity extends AppCompatActivity {
                 Toast.makeText(CheckboxesActivity.this, s, Toast.LENGTH_SHORT).show();
             }
         };
-        final CheckBox checkBox1 = findViewById(R.id.checkBox1);
+        final CheckBox checkBox1 = findViewById(R.id.checkBox);
         final Switch switch1 = findViewById(R.id.switch1);
         checkBox1.setOnCheckedChangeListener(listener1);
         switch1.setOnCheckedChangeListener(listener1);
